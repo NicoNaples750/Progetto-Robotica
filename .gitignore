@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+.next/
+dist/
+build/
+.env
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+

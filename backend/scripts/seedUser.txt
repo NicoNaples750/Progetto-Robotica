@@ -1,0 +1,35 @@
+// scripts/seedUser.js
+const mongoose = require('mongoose');
+const User = require('../models/User');
+require('dotenv').config();
+
+const mongoURI = process.env.MONGODB_URI;
+
+mongoose.connect(mongoURI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+}).then(async () => {
+  console.log('✅ Connessione a MongoDB riuscita');
+
+  try {
+    const newUser = new User({
+      username: 'admin',
+      email: 'admin@example.com',
+      password: 'password123',
+      role: 'tecnico'
+    });
+
+    console.log('Oggetto da salvare:', newUser);
+
+    await newUser.save();
+    console.log('✅ Utente creato con successo');
+  } catch (err) {
+    console.error('❌ Errore nella creazione utente:', err);
+  } finally {
+    mongoose.connection.close();
+  }
+}).catch((err) => {
+  console.error('❌ Connessione fallita:', err);
+});
+
+

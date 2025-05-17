@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1684291200000,
+    "title": "Panorama al tramonto",
+    "description": "Foto scattata durante la vacanza",
+    "imageUrl": "/uploads/tramonto1234.png"
+  },
+  {
+    "id": 1684291300000,
+    "title": "Foto di montagna",
+    "description": "Escursione in montagna",
+    "imageUrl": "/uploads/montagna5678.jpg"
+  },
+  {
+    "id": 1747472660142,
+    "title": [
+      "Paesaggio"
+    ],
+    "description": [
+      "Un paesaggio incredibile"
+    ],
+    "imageUrl": "/uploads/1747472660141.jpg"
+  }
+]

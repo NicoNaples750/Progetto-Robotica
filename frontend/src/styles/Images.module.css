@@ -1,0 +1,93 @@
+/* Intestazione */
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Container principale */
+.container {
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+/* Stile per il form */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+/* Stile per input */
+.input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+/* Stile per i pulsanti */
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 4px;
+  align-self: flex-start;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Tabella */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Pulsanti in tabella */
+.table td button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table td button:hover {
+  background-color: #d32f2f;
+}
+
+/* Anteprima immagine nella tabella */
+.imagePreview {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
