@@ -1,9 +1,9 @@
-import UserInfo from '../src/components/Dashboard/UserInfo';
-import SkillsPreview from '../src/components/Dashboard/SkillsPreview';
-import MissionsPreview from '../src/components/Dashboard/MissionsPreview';
-import ImagesPreview from '../src/components/Dashboard/ImagesPreview';
-import TemperaturePreview from '../src/components/Dashboard/TemperaturePreview';
-import styles from '../src/styles/Dashboard.module.css';
+import UserInfo from '../components/Dashboard/UserInfo';
+import SkillsPreview from '../components/Dashboard/SkillsPreview';
+import MissionsPreview from '../components/Dashboard/MissionsPreview';
+import ImagesPreview from '../components/Dashboard/ImagesPreview';
+import TemperaturePreview from '../components/Dashboard/TemperaturePreview';
+import styles from '../styles/Dashboard.module.css';
 //import styles from '../src/styles/ImagesPreview.module.css';
 
 export default function Dashboard() {

@@ -1,4 +1,4 @@
-import { reports } from '../../../data/reports';
+import { reports } from '../../../../data/reports';
 
 export default function handler(req, res) {
   if (req.method === 'GET') {

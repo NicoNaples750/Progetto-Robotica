@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import styles from '../src/styles/temperature.module.css';
+import styles from '../styles/temperature.module.css';
 
 export default function TemperaturePage() {
   const [data, setData] = useState([]);

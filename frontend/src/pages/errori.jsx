@@ -1,4 +1,4 @@
-import ErroriList from '../src/components/ErroriList';
+import ErroriList from '../components/ErroriList';
 
 export default function ErroriPage() {
   return (

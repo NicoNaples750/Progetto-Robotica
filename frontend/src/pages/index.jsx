@@ -1,7 +1,7 @@
 // pages/index.jsx
 import Link from 'next/link';
-import styles from '../src/styles/Home.module.css';
-import { useAuth } from '../src/context/AuthContext';
+import styles from '../styles/Home.module.css';
+import { useAuth } from '../context/AuthContext';
 
 export default function Home() {
   const { user, logout } = useAuth();

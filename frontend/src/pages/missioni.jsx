@@ -1,4 +1,4 @@
-import styles from '../src/styles/Missioni.module.css';
+import styles from '../styles/Missioni.module.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
