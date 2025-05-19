@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../src/context/AuthContext';
+import { useAuth } from '../src/context/AuthContext.js';
 
 export default function Profile() {
   const { user, logout } = useAuth();
